@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linterna de Defensa Personal con Choques Eléctricos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .cta-button {
+            background-color: #FF4500;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .cta-button:hover {
+            background-color: #FF6347;
+        }
+        .image-container {
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+        }
+        .benefits-list {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .benefits-list ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .form-container {
+            margin-top: 20px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #FF4500;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #FF6347;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            input {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Linterna de Defensa Personal con Choques Eléctricos</h1>
+        <p>Protección y Luz en un Solo Dispositivo</p>
+        <div class="image-container">
+            <img src="linterna.webp" alt="Linterna de Defensa Personal">
+        </div>
+        <h2>Características</h2>
+        <div class="benefits-list">
+            <ul>
+                <li>Luz LED potente para iluminar cualquier situación.</li>
+                <li>Descarga eléctrica de alto voltaje para tu defensa personal.</li>
+                <li>Compacta y fácil de llevar en tu bolso o bolsillo.</li>
+                <li>Batería recargable de larga duración.</li>
+                <li>Construcción robusta y resistente al agua.</li>
+            </ul>
+        </div>
+        <div class="form-container">
+            <h2>Obtén la Tuya Ahora</h2>
+            <form action="/submit-form" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Solicitar Información">
+            </form>
+        </div>
+        <button class="cta-button" onclick="document.getElementById('more-info').scrollIntoView();">Más Información</button>
+        <div id="more-info">
+            <h2>¿Por qué Tener una Linterna de Defensa Personal?</h2>
+            <p>Una linterna de defensa personal puede ser una herramienta muy útil por varias razones:</p>
+            <h3>Seguridad Personal</h3>
+            <p>La función de choque eléctrico de la linterna te permite defenderte en caso de un ataque. La descarga eléctrica puede incapacitar temporalmente a un atacante, dándote tiempo para escapar y buscar ayuda.</p>
+            <h3>Iluminación en Situaciones de Emergencia</h3>
+            <p>La luz LED potente puede iluminar áreas oscuras, lo que es muy útil si estás caminando solo por la noche o si necesitas encontrar tu camino en un entorno poco iluminado.</p>
+            <h3>Portabilidad y Conveniencia</h3>
+            <p>Estas linternas son compactas y fáciles de llevar. Puedes guardarlas en tu bolso, mochila o incluso en el bolsillo, lo que te permite tenerlas a mano en todo momento.</p>
+            <h3>Versatilidad</h3>
+            <p>Además de su función de defensa, puedes usarla como una linterna regular para cualquier situación que requiera iluminación, como acampar, caminatas nocturnas o en caso de cortes de energía.</p>
+            <h3>Confianza y Tranquilidad</h3>
+            <p>Llevar una linterna de defensa personal puede aumentar tu sensación de seguridad y darte más confianza al caminar solo, especialmente en áreas desconocidas o potencialmente peligrosas.</p>
+            <p>En resumen, una linterna de defensa personal combina las funciones de una linterna regular con las capacidades de defensa, brindándote una herramienta versátil y efectiva para tu seguridad personal.</p>
+        </div>
+    </div>
+</body>
+</html>
